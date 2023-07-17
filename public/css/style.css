@@ -1,0 +1,216 @@
+body {
+    background-color: white;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'nunito';
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(https://i.stack.imgur.com/mSXoO.png) !important;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent !important;
+}
+
+.navbar {
+    font-size: 1.1em;
+}
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+.hero {
+    width: 80%;
+    background-color: #FEFAE0;
+    font-family: 'poppins';
+    margin: 0px auto;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    color: rgb(128, 128, 128);
+    font-size: 1em;
+}
+
+.hero .keterangan {
+    padding: 0px 40px 40px;
+}
+
+.btn-vcitife,
+.btn-vcitife:hover {
+    color: white;
+    padding: 10px 20px;
+}
+
+.fitur .card {
+    border: none;
+}
+
+.card-icon {
+    height: 100px;
+    object-fit: contain;
+}
+
+.fitur .card img {
+    object-fit: contain;
+}
+
+.harga {
+    line-height: 32px;
+}
+
+.price {
+    font-size: 22px;
+}
+
+.link-ijo,
+.link-ijo:hover,
+.link-ijo:active {
+    color: #38c172;
+    border: 1px solid #38c172;
+    text-decoration: none;
+}
+
+.discount {
+    font-weight: bold;
+    font-size: 22px;
+    color: orangered;
+}
+
+.discount-small {
+    font-weight: bold;
+    color: orangered;
+}
+
+.breadcrumb {
+    background-color: transparent !important;
+}
+
+li.breadcrumb-item a {
+    color: #BC6C25 !important;
+}
+
+.footer {
+    padding: 30px;
+    text-align: center;
+}
+
+input[readonly] {
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+.card-number {
+    text-align: center;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.bg-vcitife-dark,
+.bg-vcitife-middle:hover {
+    background-color: #BC6C25;
+}
+
+.bg-vcitife-middle {
+    background-color: #DDA15E;
+}
+
+.bg-vcitife-light {
+    background-color: #FEFAE0;
+}
+
+.bg-vcitife-green {
+    background-color: #606C38;
+}
+
+.bg-vcitife-army {
+    background-color: #283618;
+}
+
+.text-vcitife-1 {
+    color: #606C38;
+}
+
+.text-vcitife-2 {
+    color: #283618;
+}
+
+.text-vcitife-3 {
+    color: #FEFAE0
+}
+
+.text-vcitife-4 {
+    color: #DDA15E
+}
+
+.text-vcitife-5 {
+    color: #BC6C25;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.whats-app {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    bottom: 40px;
+    z-index: 100;
+    background-color: #25d366;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    line-height: 50px;
+}
+
+.whats-app:hover {
+    color: white;
+}
+
+.my-float {
+    margin-top: 10px;
+}
+
+.fa-star.orange {
+    color: orange;
+}
+
+.rating__star.active {
+    cursor: pointer;
+    color: #dabd18b2;
+}
+
+.rating__star {
+    cursor: pointer;
+    color: grey;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 512px) {
+    .hero {
+        width: 90%;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 712px) {
+    .card-guide {
+        min-height: 23em;
+    }
+}
